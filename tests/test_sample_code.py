@@ -6,6 +6,7 @@ def test_add():
     assert add(-1, 1) == 0
     assert add(1.5, 1.5) == 3.0
     assert add(0, 0) == 0
+    assert add(100, 200) == 300
 
 def test_subtract():
     assert subtract(10, 5) == 5
